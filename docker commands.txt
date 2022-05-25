@@ -1,0 +1,26 @@
+Run project
+	docker 
+
+Start/Stop/pause/unpause
+	docker stop/start/pause/unpause <id of container>
+
+Kill
+	docker kill <name of container>
+
+Check all docker containers
+	docker ps
+	docker ps -a (show all)
+
+Check images
+	docker images
+Install 
+	docker pull <name of installing technology>
+
+Create container
+	docker run <name of container>
+
+Open in interactive mode
+	docker run -it <name of running technology>
+	docker run -it --name <here we can declare name of container by ourselves> <technology>
+	
+
